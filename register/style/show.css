@@ -1,0 +1,19 @@
+
+  .navbar-nav li {display: inline-block; font-size: 150%; }
+
+  .navbar-nav {background-color: black;height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 100%;margin: 10px;height: 60px; float: right;}
+
+    .mainCon a:link ,a:visited{color: rgb(13, 13, 201);
+        padding: 10px 40px;display: inline-block; }
+    
+        .mainCon a:hover ,a:active{color: rgb(8, 150, 62);
+            background-color: #f58233;box-shadow: 1px 1px #000;
+            
+        }
+
+
+       
