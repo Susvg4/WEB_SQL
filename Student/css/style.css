@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50% );
+    width: 500px;
+    height: 500px;
+    background: rgba(20, 19, 1, 0.5);
+    border-radius: 15px ;
+    box-sizing: border-box;
+
+}
+img[alt="user"]{
+     position:absolute ;
+     top: -50px;
+     left: 190px;
+     width: 100px;
+
+}
+h2{
+    color: wheat;
+    text-align: center;
+    top: 560px;
+    margin-top: 100px;
+}
+::placeholder{
+    color: wheat;
+}
+input[name="name"],[ name="phone"],[name="section"],[name="address"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid gray;
+    background: none;
+    padding: 5px ; 
+    color: wheat;
+    font-size: 20px;
+     
+}
+input[name="name"]{
+    top: 130px;
+    left: 130px;
+}
+[name="phone"]{
+    top: 185px;
+    left: 130px;
+}
+[name="section"]{
+    top: 250px;
+    left: 130px;
+}
+[name="address"]{
+    top: 310px;
+    left: 130px;
+}
+input[type="submit"]{
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    width: 200px;
+    height: 35px;
+    background: rgba(20, 19, 1, 0.5);
+    border: none;
+    outline: none;
+    color:wheat ;
+    border-radius: 15px;
+    font-size: 20px;
+}
+input[ type="submit"]:hover{
+    background-color:green;
+    color: aqua;
+}
+
+
