@@ -1,0 +1,86 @@
+
+body{
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+header{
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black ;
+    font-weight: bold;
+}
+#mather{
+    width: 100%;
+    font-size: 20px;
+}
+main{
+    float: left;
+    border: 1px solid gray;
+    padding: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.dis{
+    font-weight: bold;
+    color: #4CAF50;
+}
+label{
+    color: black;
+}
+input{
+    padding: 4px;
+    border: 2px solid black ;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Tajawal',sans-serif;
+}
+aside{
+    text-align: center;
+    width: 300px;
+    float: right;
+    border: 1px solid black;
+    padding: 10px; 
+    font-size: 20px;
+    background-color: silver;
+    color: white;
+}
+#tab{
+    width: 890px;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+}
+#tab th{
+   background-color: silver;
+   font-size: 20px;
+   color: black;
+   padding: 10px;
+   text-align: center;
+}
+
+aside button{
+    display:inline-block;
+    padding: 10px 25px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    transition-duration: 0.1s;
+}
+aside button:hover{
+    background-color: red;
+    color: white;
+}
+aside button:active{background-color: #b6f114;
+    box-shadow: 0 0px rgb(26, 236, 7);
+    transform: translateY(4px);
+}
