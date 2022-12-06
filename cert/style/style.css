@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+div{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 500px;
+    margin: 70px auto;
+    border-radius: 40px ;
+}
+div:hover{
+    box-shadow: 0 0 30px darkcyan;
+}
+div input{
+    display: block;
+    width: 240px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+div input:focus{
+    transform: scale(1.1);
+}
+div img{
+    margin-top: 25px;
+}
+div input[type="submit"]{
+    width: 265px;
+    background-color: rgb(172, 6, 194);
+    color: whitesmoke;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+div input[type="submit"]:hover{
+    letter-spacing: 1px;
+    box-shadow:  0 0 10px rgb(241, 239, 237); 
+    background-color: rgb(151, 5, 139);
+    transform: scale(1.1);  
+}
